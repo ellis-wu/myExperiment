@@ -1,6 +1,6 @@
 # Python HTTP Requests Testing
 
-使用執行緒發送請求，並計算其回應時間，共分為以下三種測試方法：
+使用執行緒發送請求，並計算其回應時間
 
 ## How to use
 
