@@ -35,9 +35,9 @@ def change_config(input_data):
             if pre_weight != weight:
                 changed = get_cfg_line.split("weight")[0] + 'weight ' + str(weight) + ' maxconn -1'
                 replace_command = "sudo sed -i 's/" + get_cfg_line + "/" + changed + "/g'" + " /etc/haproxy/haproxy.cfg"
-                # commands.getoutput(replace_command)
-                print replace_command
-    # commands.getoutput(HOT_RECONFIG_CMD)
+                commands.getoutput(replace_command)
+                # print replace_command
+    commands.getoutput(HOT_RECONFIG_CMD)
 
 
 def main():
