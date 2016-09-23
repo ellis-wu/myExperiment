@@ -42,7 +42,7 @@ myExperiment/
 
 > 安裝方式請參考：[HAProxy install](https://gist.github.com/ellisMing/f1fa4f236d041f55e3b4)
 
-HAProxy Config 檔中，需進行負載平衡之節點請務必填寫 port，範例如下：
+HAProxy Config 檔中，需進行負載平衡之節點__請務必填寫 port__，範例如下：
 ```txt
 listen www-balancer
     bind 0.0.0.0:9090
