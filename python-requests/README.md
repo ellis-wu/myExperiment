@@ -7,6 +7,7 @@
 #### @baseRequests.py
 
 `baseRequests.py` 會顯示以下資訊：
+
 1. total requests：總共請求次數
 2. fail requests：總共失敗次數
 3. total time：所有請求回應花費的時間
@@ -24,6 +25,7 @@ average time:0.271364283562
 #### @detailRequests.py
 
 `detailRequests.py` 會顯示以下資訊：
+
 1. 每個節點所接受到的`請求次數`、`請求回應的總時間`與`平均回應時間`
 2. total requests：總共請求次數
 3. fail requests：總共失敗次數
@@ -45,6 +47,7 @@ average time:0.183622527122
 `normalRequest.py` 與前面兩者測試方式不同，會以批量的方式將請求全部發送完畢
 
 `normalRequest.py` 會顯示以下資訊：
+
 1. 列出請求的進度
 2. 發送的總執行時間
 3. 每個節點所接受到的`請求次數`、`請求回應的總時間`與`平均回應時間`
