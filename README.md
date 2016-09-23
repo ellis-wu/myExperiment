@@ -61,3 +61,8 @@ $ watch -n 0.5 python myFuzzy.py host
 主要分為兩種模式：
   * host：對虛擬機進行動態改變權重
   * docker：對 docker container 進行動態改變權重
+
+### 開始測試
+
+可利用`python-requests`資料夾中的 python 檔下去進行測試，
+或者利用現有工具(如：[JMeter](http://jmeter.apache.org/)、[ApacheBench](https://httpd.apache.org/docs/2.4/programs/ab.html))，而每種測試工具測試的結果皆類似但不會相同，因此可以依照需求自行選擇工具。
